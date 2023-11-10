@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ViewClipIssue"
+             x:Class="ViewClipIssue.MainPage">
+
+    <VerticalStackLayout VerticalOptions="Center">
+        <local:CutomView HeightRequest="50" WidthRequest="300">
+            <local:CutomView.Background>
+                <LinearGradientBrush EndPoint="0,1">
+
+                    <LinearGradientBrush.GradientStops>
+
+                        <GradientStop Color="Red" Offset="0"/>
+
+                        <GradientStop Color="#9F3CDC" Offset="0.5"/>
+
+                        <GradientStop Color="Aqua" Offset="1"/>
+
+                    </LinearGradientBrush.GradientStops>
+
+                </LinearGradientBrush>
+            </local:CutomView.Background>
+        </local:CutomView>
+    </VerticalStackLayout>
+
+
+</ContentPage>
